@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/connect-db-checking.props" />
+</Project>

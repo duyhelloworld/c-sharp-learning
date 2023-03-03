@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/duyaiti/Project/C#/connect-db.csproj": {}
+    "/media/duyaiti/Project/C#/learning-path/connect-db-checking/connect-db-checking.csproj": {}
   },
   "projects": {
-    "/media/duyaiti/Project/C#/connect-db.csproj": {
+    "/media/duyaiti/Project/C#/learning-path/connect-db-checking/connect-db-checking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/duyaiti/Project/C#/connect-db.csproj",
-        "projectName": "connect-db",
-        "projectPath": "/media/duyaiti/Project/C#/connect-db.csproj",
+        "projectUniqueName": "/media/duyaiti/Project/C#/learning-path/connect-db-checking/connect-db-checking.csproj",
+        "projectName": "connect-db-checking",
+        "projectPath": "/media/duyaiti/Project/C#/learning-path/connect-db-checking/connect-db-checking.csproj",
         "packagesPath": "/home/duyaiti/.nuget/packages/",
-        "outputPath": "/media/duyaiti/Project/C#/obj/",
+        "outputPath": "/media/duyaiti/Project/C#/learning-path/connect-db-checking/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/duyaiti/.nuget/NuGet/NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "/home/duyaiti/.nuget/NuGet/MySQL.Data": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
