@@ -17,4 +17,11 @@
 > __pass__ : ********
 3. Chạy trên terminal tại folder chứa code 
 `dotnet build && dotnet run`
-4. Vào trình duyệt, truy cập đường dẫn trong file
+
+> `Note:` nếu có lỗi thiếu package, chạy lệnh :
+> `dotnet add package MySql.Data --version 8.0.31`
+
+4. Vào trình duyệt, truy cập đường dẫn trong file launchSetting.json
+hoặc copy URL dưới :
+
+`http://localhost:5169`
